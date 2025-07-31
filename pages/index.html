@@ -4,14 +4,183 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
+    <title>首頁</title>
   </head>
   <body>
-    <%- include('./layout/header'); -%>
+    <%- include('./layout/navbar'); %>
+    <div class="nav-button d-none d-sm-flex d-sm-block">
+      <button type="button" class="btn left">商品列表</button>
+      <button type="button" class="btn right">品牌故事</button>
+    </div>
+    <header class="index-header mb-64 mb-sm-40">
+      <div class="header-text">
+        <h1 class="display-one mb-16 display-md-two mb-sm-8">URBNSTEP</h1>
+        <h4 class="h3 mb-48 h5-md mb-sm-32">Your Step, Your Statement</h4>
+        <button type="button" class="btn">立即選購</button>
+      </div>
+    </header>
+    <section class="container mb-64 mb-sm-40">
+      <div class="arrival-title mb-32 mb-sm-24">
+        <h2 class="display-two mb-12 h2-md mb-sm-8">New Arrival</h2>
+        <h3 class="h2 h4-sm">新品上市</h3>
+      </div>
+      <div class="arrival-products row row-sm d-flex flex-wrap">
+        <div class="arrival-products-card col-6 col-sm-6 mb-40 mb-sm-24">
+          <a href="#">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-1.png?raw=true" alt="新品上市" class="mb-12 mb-sm-8">
+            <h6 class="h5 mb-4 h6-sm">Monoverse</h6>
+            <p class="label text-md">NT$3,600</p>
+          </a>
+        </div>
+        <div class="arrival-products-card col-6 col-sm-6 mb-40 mb-sm-24">
+          <a href="#">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-2.png?raw=true" alt="新品上市" class="mb-12 mb-sm-8">
+            <h6 class="h5 mb-4 h6-sm">PLATFORM 404</h6>
+            <p class="label text-md">NT$2,600</p>
+          </a>
+        </div>
+        <div class="arrival-products-card col-6 col-sm-6">
+          <a href="#">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-3.png?raw=true" alt="新品上市" class="mb-12 mb-sm-8">
+            <h6 class="h5 mb-4 h6-sm">URBN Force</h6>
+            <p class="label text-md">NT$3,200</p>
+          </a>
+        </div>
+        <div class="arrival-products-card col-6 col-sm-6">
+          <a href="#">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-4.png?raw=true" alt="新品上市" class="mb-12 mb-sm-8">
+            <h6 class="h5 mb-4 h6-sm">Mode90</h6>
+            <p class="label text-md">NT$4,000</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="container py-64 py-sm-40">
+      <div class="best-sell-title mb-16">
+        <h3 class="h2 py-5 h4-sm">熱銷補貨</h3>
+      </div>
+      <div class="best-seller row row-md d-flex overflow-md-auto">
+        <div class="best-seller-card col-3">
+          <a href="#">
+            <p class="label text-sm py-8 px-12">人氣 No.1</p>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true" alt="熱銷商品">
+          </a>
+        </div>
+        <div class="best-seller-card col-3">
+          <a href="#">
+            <p class="label text-sm py-8 px-12">人氣 No.1</p>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product.png?raw=true" alt="熱銷商品">
+          </a>
+        </div>
+        <div class="best-seller-card col-3">
+          <a href="#">
+            <p class="label text-sm py-8 px-12">人氣 No.1</p>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true" alt="熱銷商品">
+          </a>
+        </div>
+        <div class="best-seller-card col-3">
+          <a href="#">
+            <p class="label text-sm py-8 px-12">人氣 No.1</p>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true" alt="熱銷商品">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="sale py-48 py-sm-24">
+      <div class="sale-bg py-100 py-md-64">
+        <div class="sale-content">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week3-4/star.svg" alt="star" class="star">
+          <div class="sale-title d-flex justify-center align-center mb-16 d-md-block">
+            <h2 class="display-two h2-md mr-24 mr-md-0 mb-md-8">URBNSTEP</h2>
+            <h3 class="h1 h3-md mr-24 mr-md-0 mb-md-8">x</h3>
+            <h2 class="display-two h2-md">Kevin Chen</h2>
+          </div>
+          <h3 class="h2 h5-md mb-32 mb-md-24">跨界聯名，限量發售</h3>
+          <p class="p mb-48 d-md-none">新銳漫畫家 Kevin Chen 親自操刀設計，街頭能量全面引爆！</p>
+          <p class="p text-md mb-4 d-none d-md-block">新銳漫畫家 Kevin Chen 親自操刀設計</p>
+          <p class="p text-md mb-32 d-none d-md-block">街頭能量全面引爆！</p>
+          <button type="button" class="btn">立即搶購</button>
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/6d666caf369e2de99b649ce9fc967d13e36f30b5/2025-week3-4/sparkle.svg" alt="sparkle" class="sparkle">
+        </div>
+        <img src="https://github.com/Fury51/img-base/blob/main/%E5%9C%96%E5%BA%AB/indicators.png?raw=true" alt="" class="indicators d-md-none">
+      </div>
+    </section>
+    <section class="container py-64 py-sm-40">
+      <h3 class="h2 mb-16 h4-sm">依系列選購</h3>
+      <div class="series row row-sm d-flex flex-sm-wrap">
+        <div class="series-card col-3 col-sm-6 mb-sm-12">
+          <a href="#">
+            <img src="https://github.com/Fury51/img-base/blob/main/%E5%9C%96%E5%BA%AB/Category-Card1.png?raw=true" alt="慢跑系列">
+            <div class="series-card-content">
+              <h4 class="h3 h6-lg mb-8">URBN RUNNER</h4>
+              <h5 class="h4 h6-lg">慢跑系列</h5>
+            </div>
+          </a>
+        </div>
+        <div class="series-card col-3 col-sm-6 mb-sm-12">
+          <a href="#">
+            <img src="https://github.com/Fury51/img-base/blob/main/%E5%9C%96%E5%BA%AB/Category-Card2.png?raw=true" alt="滑板系列">
+            <div class="series-card-content">
+              <h4 class="h3 h6-lg mb-8">STREETMODE</h4>
+              <h5 class="h4 h6-lg">滑板系列</h5>
+            </div>
+          </a>
+        </div>
+        <div class="series-card col-3 col-sm-6">
+          <a href="#">
+            <img src="https://github.com/Fury51/img-base/blob/main/%E5%9C%96%E5%BA%AB/Category-Card3.png?raw=true" alt="厚底系列">
+            <div class="series-card-content">
+              <h4 class="h3 h6-lg mb-8">CHUNK DISTRICT</h4>
+              <h5 class="h4 h6-lg">厚底系列</h5>
+            </div>
+          </a>
+        </div>
+        <div class="series-card col-3 col-sm-6">
+          <a href="#">
+            <img src="https://github.com/Fury51/img-base/blob/main/%E5%9C%96%E5%BA%AB/Category-Card4.png?raw=true" alt="聯名企劃">
+            <div class="series-card-content">
+              <h4 class="h3 h6-lg mb-8">COLLAB ZONE</h4>
+              <h5 class="h4 h6-lg">聯名企劃</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="outfit-style-container py-64 py-sm-40">
+      <h3 class="h2 mb-16 h4-sm">穿搭靈感</h3>
+      <div class="outfit-style d-flex column-gap-8 overflow-md-auto column-md-gap-16">
+        <div class="d-flex flex-column row-gap-8 w-66 d-md-contents">
+          <div class="d-flex column-gap-8 flex-grow-1 d-md-contents">
+            <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img1.png?raw=true" alt="穿搭1">
+            <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-2.png?raw=true" alt="穿搭2">
+            <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-3.png?raw=true" alt="穿搭3">
+            <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-4.png?raw=true" alt="穿搭4">
+          </div>
+          <div class="d-flex column-gap-8 d-md-contents">
+            <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-6.png?raw=true" alt="穿搭6">
+            <div class="d-flex flex-column row-gap-8 d-md-contents">
+              <div class="d-flex column-gap-8 d-md-contents">
+                <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-7.png?raw=true" alt="穿搭7">
+                <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-8.png?raw=true" alt="穿搭8">
+              </div>
+              <div class="d-flex column-gap-8 d-md-contents">
+                <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-9.png?raw=true" alt="穿搭9">
+                <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-10.png?raw=true" alt="穿搭10">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column row-gap-8 w-33 d-md-contents">
+          <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-5.png?raw=true" alt="穿搭5">
+          <div class="d-flex column-gap-8 d-md-contents">
+            <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-11.png?raw=true" alt="穿搭11">
+            <img src="https://github.com/0404kai/2025-layout-week1-img/blob/main/img-12.png?raw=true" alt="穿搭12">
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/dog.jpg" style="width: 300px;" alt="cat">
-
+    <%- include('./layout/callToAction'); -%>
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>

@@ -1,0 +1,80 @@
+.product-list-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 80px;
+}
+.title-bar .bar-left a{
+    color: $Neutral600;
+}
+.title-bar .bar-middle{
+    color: $Neutral300;
+}
+.title-bar .bar-right a{
+    color: $Neutral900;
+}
+.product-list li a{
+    display: block;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: $Neutral900;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.product-list .focus a{
+    color: $Primary400;
+}
+.product-list li a:hover{
+    background-color: $Neutral100;
+}
+.product-list li a:focus{
+    color: $Primary400;
+}
+.product-cards .card{
+    margin-bottom: 48px;
+}
+.card .image{
+    margin-bottom: 12px;
+
+    img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.pages li a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: $Neutral900;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i{
+        font-size: 20px;
+    }
+}
+.pages li .page:focus{
+    background-color: $Primary300;
+}
+
+/* 響應式網頁 手機板 */
+@media (max-width: 576px) {
+    .product-cards .card{
+        margin-bottom: 24px;
+    }
+    .card .image{
+        margin-bottom: 8px;
+    }
+}

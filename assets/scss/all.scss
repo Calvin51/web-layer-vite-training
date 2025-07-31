@@ -1,5 +1,26 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+// 引入字體
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Noto+Sans+TC:wght@100..900&display=swap');
+// 引入BS5 icon
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+@import './helper/variables';
+@import './helper/utils';
+
+@import './base/reset';
+@import './base/base';
+
+@import './component/button';
+
+@import './layout/navbar';
+@import './layout/header';
+@import './layout/callToAction';
+@import './layout/footer';
 
 
-@import './pages/index.scss';
+@import './pages/index';
+@import './pages/brandStory';
+@import './pages/productList';
+@import './pages/goodsDetail';
+@import './pages/collect';
+@import './pages/signIn';
+@import './pages/register';

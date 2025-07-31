@@ -1,0 +1,129 @@
+.aside-row {
+    margin-right: -4px;
+    margin-left: -4px;
+}
+.aside-col-6 {
+    padding-left: 4px;
+    padding-right: 4px;
+    width: calc(100% / 12 * 6);
+}
+.button {
+    font-family: "Noto Sans TC";
+    cursor: pointer; /*游標移上去變指的手勢*/
+    border: none;
+    background-color: transparent; /*背景色透明*/
+}
+.gap-8 {
+    gap: 8px;
+}
+
+.image-box img{
+    max-width: 100%;
+    height: auto;
+}
+.product-intro ul li{
+    color: $Neutral600;
+}
+.product-intro ul .n300{
+    color: $Neutral300;
+}
+.product-intro ul .n900{
+    color: $Neutral900;
+}
+.product-price h5{
+    color: $Primary400;
+}
+.product-price p{
+    color: $Neutral500;
+    text-decoration: line-through;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+}
+.color-button .button img{
+    max-width: 64px;
+}
+.color-button .button h6{
+    color: $Neutral600;
+    text-align: center;
+}
+.size-button .button{
+    width: 160px;
+    padding: 12px 24px;
+    text-align: center;
+    border: 1px solid $Neutral300;
+    border-radius: 4px;
+}
+.size-button .button:hover {
+    border: 1px solid $Neutral900;
+}
+.size-button .focus{
+    border: 1px solid $Neutral900;
+}
+.size-button .button .sold-out {
+    color: $Neutral500;
+}
+.select-size .color-danger{
+    color: $Danger300;
+}
+.btn-wrapper .button{
+    border-radius: 4px;
+}
+.btn-wrapper .light{
+    width: 50%;
+    border: 1px solid $Neutral900;
+}
+.btn-wrapper .light:hover {
+    background-color: $Neutral900;
+    color: $Neutral0;
+}
+.btn-wrapper .dark{
+    width: 50%;
+    background-color: $Neutral900;
+    color: $Neutral0;
+}
+.btn-wrapper .button i{
+    font-size: 20px;
+}
+.accordion-item{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $Neutral300;
+}
+.accordion-item p{
+    color: $Neutral600;
+}
+.best-sell-title{
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+.card-wrapper .card .card-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .row-sm {
+        margin-right: -8px; 
+        margin-left: -8px;
+    }
+    .col-sm-12 {
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 100%;
+    }
+    .overflow-sm-auto {
+        overflow-x: auto;
+    }
+    .btn-wrapper .dark {
+        width: 295px;
+    }
+    .favorite {
+        font-size: 24px;
+        padding: 12px;
+    }
+    .card-wrapper .card {
+        padding-left: 8px;
+        padding-right: 8px;
+        min-width: 300px;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>會員登入</title>
+  </head>
+  <body>
+    <%- include('./layout/navbar'); %>
+    <!-- 用格線系統 -->
+    <header>
+      <div class="bg-md d-none d-md-block"></div>
+    </header>
+    <main class="container py-64 py-md-0">
+      <div class="row d-flex d-md-block">
+        <div class="col-5 d-md-none">
+          <div class="brand-image"></div>
+        </div>
+        <div class="col-7 col-md-12">
+          <div class="login-bg">
+            <div class="login-content">
+              <h1 class="h3 h4-md mb-32 mb-md-24">歡迎！</h1>
+              <div class="button d-flex mb-32 mb-md-24">
+                <a href="./signIn.html" class="h6 py-11 activate">登入</a>
+                <a href="./register.html" class="h6 py-11 deactivate">註冊</a>
+              </div>
+              <div class="link-in">
+                <a href="https://www.facebook.com/" class="d-flex align-center mb-8">
+                  <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/14f2133cdd6d831a3acb833025093d4fcbffc381/2025-week3-4/facebook.svg" alt="facebook" class="mr-12">
+                  <p class="p text-md">Facebook 登入</p>
+                </a>
+                <a href="https://www.apple.com/tw/" class="d-flex align-center mb-8">
+                  <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/14f2133cdd6d831a3acb833025093d4fcbffc381/2025-week3-4/apple.svg" alt="apple" class="mr-12">
+                  <p class="p text-md">Apple 登入</p>
+                </a>
+                <a href="https://www.google.com.tw/" class="d-flex align-center">
+                  <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/14f2133cdd6d831a3acb833025093d4fcbffc381/2025-week3-4/google.svg" alt="google" class="mr-12">
+                  <p class="p text-md">Google 登入</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

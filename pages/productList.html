@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>產品列表</title>
+</head>
+<body>
+    <%- include('./layout/navbar'); %>
+    <main class="product-list-container">
+        <ul class="title-bar d-flex mb-24 mt-32 mt-sm-16">
+            <li class="bar-left label text-md text-sm-sm"><a href="./index.html" class="mr-12 mr-sm-8">首頁</a></li>
+            <li class="bar-middle label text-md text-sm-sm mr-12 mr-sm-8">/</li>
+            <li class="bar-left label text-md text-sm-sm"><a href="#" class="mr-12 mr-sm-8">女鞋</a></li>
+            <li class="bar-middle label text-md text-sm-sm mr-12 mr-sm-8">/</li>
+            <li class="bar-right label text-md text-sm-sm"><a href="#">所有商品</a></li>
+        </ul>
+        <div class="title mb-24 py-7">
+            <h1 class="h3 h4-sm">女鞋</h1>
+        </div>
+        <div class="content d-flex row row-sm">
+            <ul class="product-list col-2 d-sm-none">
+                <li class="mb-16 label text-md focus"><a href="#">所有商品</a></li>
+                <li class="mb-16 label text-md"><a href="#">慢跑鞋</a></li>
+                <li class="mb-16 label text-md"><a href="#">滑板鞋</a></li>
+                <li class="mb-16 label text-md"><a href="#">厚底鞋</a></li>
+                <li class="label text-md"><a href="#">限定 / 聯名企劃</a></li>
+            </ul>
+            <div class="product-menu col-10 px-12 col-sm-12 px-sm-6 mb-sm-16">
+                <ul class="product-cards d-flex flex-wrap row row-sm">
+                    <li class="card col-4 col-sm-6">
+                        <a href="./goodsDetail.html">
+                           <div class="image">
+                                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product.png?raw=true" alt="">
+                            </div>
+                            <div class="label">
+                                <h6 class="h6">PLATFORM 404</h6>
+                                <h6 class="label text-md">NT$2,600 </h6>
+                            </div> 
+                        </a>                        
+                    </li>
+                    <li class="card col-4 col-sm-6">
+                        <div class="image">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-1.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">PLATFORM 404</h6>
+                            <h6 class="label text-md">NT$2,600</h6>
+                        </div>
+                    </li>
+                    <li class="card col-4 col-sm-6">
+                        <div class="image">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">VM001</h6>
+                            <h6 class="label text-md">NT$2,600</h6>
+                        </div>
+                    </li>
+                    <li class="card col-4 col-sm-6">
+                        <div class="image">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">Melty Kiss</h6>
+                            <h6 class="label text-md">NT$4,000</h6>
+                        </div>
+                    </li>
+                    <li class="card col-4 col-sm-6">
+                        <div class="image">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">BOOMBLOK</h6>
+                            <h6 class="label text-md">NT$3,200</h6>
+                        </div>
+                    </li>
+                    <li class="card col-4 col-sm-6">
+                        <div class="image">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-5.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">BOOMBLOK</h6>
+                            <h6 class="label text-md">NT$3,200</h6>
+                        </div>
+                    </li>
+                    <li class="card col-4 col-sm-6">
+                        <div class="image">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">R:UNER</h6>
+                            <h6 class="label text-md">NT$4,000</h6>
+                        </div>
+                    </li>
+                    <li class="card col-4 col-sm-6">
+                        <div class="image">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">Sugar Snap</h6>
+                            <h6 class="label text-md">NT$4,000</h6>
+                        </div>
+                    </li>
+                    <li class="card col-4 col-sm-6">
+                        <div class="image">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-8.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">Neofoam</h6>
+                            <h6 class="label text-md">NT$4,000</h6>
+                        </div>
+                    </li>
+                    <li class="card col-4 col-sm-6 d-none d-sm-block">
+                        <div class="image">
+                            <img src="https://github.com/Fury51/img-base/blob/main/%E5%9C%96%E5%BA%AB/Product-Card.png?raw=true" alt=""></div>
+                        <div class="label">
+                            <h6 class="h6">Buttermood</h6>
+                            <h6 class="label text-md">NT$4,000</h6>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="pages d-flex justify-center mt-sm-8">
+                        <li class="mr-12"><a href="#"><i class="bi bi-chevron-left"></i></a></li>
+                        <li class="mr-8 label text-md"><a href="#" class="page">1</a></li>
+                        <li class="mr-8 label text-md"><a href="#" class="page">2</a></li>
+                        <li class="mr-8 label text-md"><a href="#" class="page">3</a></li>
+                        <li class="mr-8 label text-md"><a href="#" class="page">...</a></li>
+                        <li class="mr-12 label text-md"><a href="#" class="page">10</a></li>
+                        <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <%- include('./layout/callToAction'); -%>
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+</body>
+</html>

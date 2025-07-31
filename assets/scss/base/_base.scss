@@ -1,0 +1,27 @@
+// 標籤的基本樣式
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  color: $Neutral900;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+img {
+  display: block;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: $Neutral900;
+}
+
+a:hover{
+    background-color: $Neutral300;
+}
